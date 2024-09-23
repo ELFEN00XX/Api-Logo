@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
-app.post('/Ameen/neon', async (req, res) => {
+app.post('/neon', async (req, res) => {
     const { text } = req.body;
 
     try {
