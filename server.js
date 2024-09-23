@@ -11,7 +11,7 @@ app.get('/logo', async (req, res) => {
     }
 
     try {
-        const apiUrl = `https://en.ephoto360.com/${design}?text=${encodeURIComponent(content)}`;
+        const apiUrl = `https://en.ephoto360.com/create-colorful-neon-light-text-effects-online-797.html?text=${encodeURIComponent(content)}`;
         const response = await axios.get(apiUrl);
         const imageUrl = response.data.imageUrl; 
 
